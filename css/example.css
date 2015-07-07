@@ -1,0 +1,36 @@
+@import url("./datepicker.css");
+html {
+  overflow-y: scroll; }
+
+body {
+  background: #eeeeee;
+  background: radial-gradient(ellipse at center, #eeeeee 0%, #cccccc 100%); }
+
+*:focus {
+  outline: none; }
+
+.datepickerInput {
+  background-color: #FFFFFF; }
+  .datepickerInput input {
+    width: 11.4em;
+    font-family: "Lato";
+    padding: 0.3em;
+    font-size: 16px;
+    font-weight: 100;
+    border: none; }
+  .datepickerInput:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 20px;
+    content: "\f073";
+    color: #E9E9E9;
+    padding: 0.3em 0.4em 0.3em 0em; }
+
+#datepicker {
+  display: flex;
+  height: 100%;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center; }
