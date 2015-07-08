@@ -17,7 +17,10 @@ body {
     padding: 0.3em;
     font-size: 16px;
     font-weight: 100;
-    border: none; }
+    border: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none; }
   .datepickerInput:after {
     font-family: FontAwesome;
     display: inline-block;
